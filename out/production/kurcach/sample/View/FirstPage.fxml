@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="750.0" style="-fx-background-color: #FFFAFA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.FirstPage">
+   <children>
+      <Button fx:id="SecondPagebutton" layoutX="658.0" layoutY="592.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="86.0" style="-fx-background-color: #F39C63;" text="Далее" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="110.0" fitWidth="130.0" layoutX="30.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/4Сhease.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="130.0" layoutX="382.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gribmaa.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="158.0" layoutY="155.0" text="Цена:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="110.0" text="Диаметр:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="536.0" layoutY="110.0" text="Диаметр:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="536.0" layoutY="155.0" text="Цена:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-6.0" layoutY="-4.0" prefHeight="68.0" prefWidth="757.0" style="-fx-background-color: #2E3348;">
+         <children>
+            <Label layoutX="327.0" layoutY="14.0" prefHeight="54.0" prefWidth="110.0" text="Pizza" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="42.0" layoutY="69.0" text="Грибная">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="366.0" layoutY="69.0" text="Четыре сыра">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="105.0" text="40 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="105.0" text="30 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="148.0" text="25 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="148.0" text="20 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Text fill="#5b5555" layoutX="30.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Чесночный соус, ветчина, свежие шампиньоны, сыр моцарелла, базилик" wrappingWidth="145.86328125" />
+      <Text fill="#5b5555" layoutX="366.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cырный соус, сливочный сыр, сыр фета, сыр дорблю, сыр моцарелла, базилик" wrappingWidth="185.767578125" />
+      <Label layoutX="32.0" layoutY="266.0" text="Гавайская">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="130.0" layoutX="30.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/gavaiscaa.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#5b5555" layoutX="30.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cырный соус, ветчина, филе цыпленка, ананасы, сыр моцарелла, базилик" wrappingWidth="145.86328125" />
+      <Label layoutX="42.0" layoutY="458.0" text="Баварская">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="130.0" layoutX="32.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Bavarckaa.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#5b5555" layoutX="24.0" layoutY="612.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сладкий горчичный соус, охотничьи колбаски, свежие шампиньоны" wrappingWidth="145.86328125" />
+      <Label layoutX="157.0" layoutY="315.0" text="Диаметр:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="501.0" text="Диаметр:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="358.0" text="Цена:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="545.0" text="Цена:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="310.0" text="40 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="351.0" text="20 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="496.0" text="30">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="538.0" text="25">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="266.0" text="Мясная">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="130.0" layoutX="382.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/MeatPizza.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#5b5555" layoutX="366.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пицца-соус, пепперони, ветчина, фарш (говядина), грудинка (свинина)" wrappingWidth="185.767578125" />
+      <Label layoutX="375.0" layoutY="458.0" text="Пепперони">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="110.0" fitWidth="130.0" layoutX="383.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/PepporoniPizza.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#5b5555" layoutX="364.0" layoutY="612.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пицца-соус, пепперони, сыр моцарелла, базилик" wrappingWidth="145.86328125" />
+      <Label layoutX="536.0" layoutY="315.0" text="Диаметр:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="536.0" layoutY="501.0" text="Диаметр:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="536.0" layoutY="358.0" text="Цена:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="536.0" layoutY="545.0" text="Цена:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="310.0" text="40 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="496.0" text="30 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="351.0" text="35 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="538.0" text="20 ">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="153.0" layoutY="193.0" text="Количество:">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="193.0" text="Количество:">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="388.0" text="Количество:">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="580.0" text="Количество:">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="388.0" text="Количество:">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="488.0" layoutY="584.0" text="Количество:">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="238.0" layoutY="181.0" mnemonicParsing="false" onAction="#handlePlus1" prefHeight="25.0" prefWidth="39.0" text="+" />
+      <Button fx:id="buttonMinus1" layoutX="239.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleMinus1" prefHeight="25.0" prefWidth="39.0" text="-" />
+      <Button layoutX="582.0" layoutY="181.0" mnemonicParsing="false" onAction="#handlePlus2" prefHeight="25.0" prefWidth="39.0" text="+" />
+      <Button fx:id="buttonMinus2" layoutX="582.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleMinus2" prefHeight="25.0" prefWidth="39.0" text="-" />
+      <Button layoutX="238.0" layoutY="376.0" mnemonicParsing="false" onAction="#handlePlus3" prefHeight="25.0" prefWidth="39.0" text="+" />
+      <Button fx:id="buttonMinus3" layoutX="238.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleMinus3" prefHeight="25.0" prefWidth="39.0" text="-" />
+      <Button layoutX="582.0" layoutY="376.0" mnemonicParsing="false" onAction="#handlePlus4" prefHeight="25.0" prefWidth="39.0" text="+" />
+      <Button fx:id="buttonMinus4" layoutX="582.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleMinus4" prefHeight="25.0" prefWidth="39.0" text="-" />
+      <Button layoutX="238.0" layoutY="568.0" mnemonicParsing="false" onAction="#handlePlus5" prefHeight="25.0" prefWidth="39.0" text="+" />
+      <Button fx:id="buttonMinus5" layoutX="238.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleMinus5" prefHeight="25.0" prefWidth="39.0" text="-" />
+      <Button layoutX="582.0" layoutY="568.0" mnemonicParsing="false" onAction="#handlePlus6" prefHeight="25.0" prefWidth="39.0" text="+" />
+      <Button fx:id="buttonMinus6" layoutX="582.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleMinus6" prefHeight="25.0" prefWidth="39.0" text="-" />
+      <Label fx:id="labelAmount1" layoutX="295.0" layoutY="179.0" prefHeight="54.0" prefWidth="28.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAmount2" layoutX="636.0" layoutY="176.0" prefHeight="54.0" prefWidth="28.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAmount4" layoutX="636.0" layoutY="374.0" prefHeight="54.0" prefWidth="28.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAmount3" layoutX="290.0" layoutY="374.0" prefHeight="54.0" prefWidth="28.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAmount6" layoutX="630.0" layoutY="567.0" prefHeight="54.0" prefWidth="28.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelAmount5" layoutX="290.0" layoutY="565.0" prefHeight="54.0" prefWidth="28.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="104.0" text="см">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="149.0" text="р">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="309.0" text="см">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="678.0" layoutY="104.0" text="см">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Accordion />
+      <Label layoutX="687.0" layoutY="149.0" text="р">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="309.0" text="см">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="495.0" text="см">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="679.0" layoutY="495.0" text="см">
+         <font>
+            <Font name="Arial Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="352.0" text="р">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="688.0" layoutY="352.0" text="р">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="688.0" layoutY="539.0" text="р">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="539.0" text="р">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
