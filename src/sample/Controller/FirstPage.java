@@ -7,8 +7,11 @@ import java.util.ResourceBundle;
 import java.util.HashMap;
 
 import javafx.animation.PauseTransition;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.ListView;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,6 +20,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import sample.DataBase.Const;
+import sample.DataBase.DataBaseHandler;
 
 
 public class FirstPage {
@@ -140,9 +145,11 @@ public class FirstPage {
         SecondPagebutton.setOnAction(event -> {
             openNewScene("/sample/View/SecondPage.fxml");
         });
+
+
     }
 
-    public void  openNewScene(String window ){
+    private void  openNewScene(String window){
         /*Переключатель назад*/
         SecondPagebutton.getScene().getWindow().hide();
 
@@ -264,6 +271,21 @@ public class FirstPage {
         }
 
     }
+
+    public void ListOrder() {
+        ObservableList<String> langs = FXCollections.observableArrayList();
+        ListView<String> langsListView = new ListView<String>(langs);
+        SecondPagebutton.setOnAction(event -> langs.add(labelAmount1.getText()));
+        System.out.println("goods");
+//        SecondPagebutton.setOnAction(event -> {
+//            if ( labelAmount1.getText().equals("0")) {
+//                langs.add(namePizza1.getText());
+//                System.out.println("good");
+//            }
+            //System.out.println(langs);
+    //});
+    }
 }
+
 
 
